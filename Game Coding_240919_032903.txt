@@ -2,11 +2,11 @@ from telegram import Update, Bot
 from telegram.ext import Updater, CommandHandler, CallbackContext
 
 # Bot token from BotFather
-TOKEN = 'YOUR_BOT_TOKEN'
+TOKEN = '7526734428:AAFbg8QpTRqtYRzGOmmKS3RCYo-O62xjhFc'
 
 # Initialize bot and updater
-bot = Bot(token=TOKEN)
-updater = Updater(token=TOKEN, use_context=True)
+bot = Bot(7526734428:AAFbg8QpTRqtYRzGOmmKS3RCYo-O62xjhFc)
+updater = Updater(7526734428:AAFbg8QpTRqtYRzGOmmKS3RCYo-O62xjhFc, use_context=True)
 dispatcher = updater.dispatcher
 
 # Initialize user scores and referrals
